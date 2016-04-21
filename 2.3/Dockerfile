@@ -1,4 +1,4 @@
-FROM buildpack-deps:jessie
+FROM buildpack-deps:wheezy
 
 # skip installing gem documentation
 RUN mkdir -p /usr/local/etc \
